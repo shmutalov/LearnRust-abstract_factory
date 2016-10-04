@@ -1,7 +1,7 @@
 mod protocols;
 
 use protocols::protocol_types::ProtocolTypes;
-use protocols::protocol_factory::ProtocolFactory;
+use protocols::ProtocolFactory;
 
 fn main() {
     let proto = ProtocolFactory::get_protocol(ProtocolTypes::Version1);
